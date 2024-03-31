@@ -22,7 +22,7 @@ nepalicalendar
 pyodbc
 python-dateutil
 python-dotenv
-psycopg2
+psycopg2-binary
 #If psycopg2 does not build on your system, try:
 #psycopg2-binary==2.8.5
 reportbro-lib~=2.1.1

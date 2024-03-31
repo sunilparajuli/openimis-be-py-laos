@@ -144,6 +144,9 @@ else:
 
 # Application definition
 
+WKHTMLTOPDF_CMD_OPTIONS = {
+    'enable-local-file-access': True,
+}
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -156,6 +159,7 @@ INSTALLED_APPS = [
     "test_without_migrations",
     "rest_framework",
     "rules",
+    "wkhtmltopdf",
     "health_check",  # required
     "health_check.db",  # stock Django health checkers
     "health_check.cache",
